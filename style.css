@@ -219,7 +219,8 @@ h3{
 }
 .cards_grid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 10px;
 }
 
@@ -258,15 +259,14 @@ h3{
     display: grid;
     padding: 0px 20px;
     grid-template-rows: 40px auto 40px auto;
-    margin-bottom: 10px;
-    align-items: center;
-    /* margin-top: -10px; */
 
+
+    align-content: start;
 }
 .announcements{
-    display:grid;
-    margin-bottom: 20px;
+    margin-bottom: 45px;
 }
+
 .announcements, .trending{
     background-color: white;
     border-radius: 5px;
