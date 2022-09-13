@@ -20,14 +20,14 @@ Personal challenge: Create initial set up files & repo completely via the comman
 The cards came together quicker than I had anticipated and was able to get them to line up. 
 
 ### **Challenges:**
-Found it very tricky using grid to for the header row layouts due to the extra space added.
+Found it very tricky using grid for the header row layouts due to the extra space added.
 After creating the rows with grid, I did end up using flex for the individual row layouts.
 I felt like grid wasn't giving me the control and flexibility I was looking for, but I can see
 the benefits of it for areas such as the card section. 
 
 
 ### **To Look Into:**
- - Make the peoject responsive 
+ - Make the project responsive 
  - Make cards shrink and grow when window is resized
 
 * * * 
